@@ -22,6 +22,7 @@ public class CreateAccountTest {
 		CreateAccount crtAccount = actPage.gotoCreateAccount();
 		crtAccount.createAccount(data.get("accountname"));
 		//Assert.assertTrue(false, "create account fails");
+		
 	}
 
 }
