@@ -12,7 +12,6 @@ public class LiginTest {
 
 	public static void main(String[] args) {
 		HomePage home = new HomePage();
-		//some rough work
 		LoginPage login = home.goToLogin();
 		ZohoAppPage appPage = login.doLoginIn("akgankitsharma@gmail.com", "GHAR!wsXm2s");
 		appPage.goToCRM();
